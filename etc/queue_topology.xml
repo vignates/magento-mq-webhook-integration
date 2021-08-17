@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/queue_topology.xsd">
+    <exchange name="product_integration_data" type="topic" connection="amqp" autoDelete="true" durable="true" >
+        <binding id="product_integration_binding"  topic="product_integration"  destinationType="queue" destination="product-integration-queue"/>
+    </exchange>
+</config>

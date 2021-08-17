@@ -1,0 +1,22 @@
+{
+    "name": "klevu/module-productintegration",
+    "description": "Module to update product using webhooks",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Vignesh",
+            "email": "vignesh.muthuswamy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Klevu\\ProductIntegration\\": ""
+        }
+    }
+}
